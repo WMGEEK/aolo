@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Intro";
+  src: url("./fonts/Intro.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("./fonts/SFPRODISPLAYMEDIUM.OTF") format("truetype");
+}
+
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("./fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+body {
+  background-image: url("/imgs/bg-kol.png");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+/* .fVdTDJ {
+  color: #fff;
+}
+
+.hKVWEK+svg circle {
+  fill: #fff;
+} */
+
+.dRQoty,
+.kKpHpN {
+  position: relative;
+  top: 1.5px !important;
+}

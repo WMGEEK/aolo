@@ -1,0 +1,37 @@
+.headerU {
+  width: 100vw;
+  position: fixed;
+  top: 30px;
+  padding-left: 57px;
+  padding-right: 57px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logoU {
+    width: 137px;
+    height: 45px;
+  }
+
+  .btnU {
+    display: flex;
+    padding: 14px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #0e0729;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    .iconU {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}

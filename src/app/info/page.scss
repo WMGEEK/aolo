@@ -1,0 +1,110 @@
+.InfoU {
+  width: 100vw;
+  height: 100vh;
+  overflow-y: scroll;
+
+  .popupU {
+    margin: 137px auto;
+    padding: 47px 46px 44px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 822px;
+    height: 1130px;
+    flex-shrink: 0;
+    border-radius: 26px;
+    background: #fff;
+    box-shadow: 0px 39px 40px 0px rgba(14, 7, 41, 0.07);
+  }
+
+  .formU {
+    margin-top: 44px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .titleU {
+    width: 659px;
+    text-align: center;
+    font-family: "Intro";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117%; /* 37.44px */
+    letter-spacing: 3.84px;
+    background: linear-gradient(180deg, #0e0729 51.24%, #fff 94.44%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .btnU {
+    margin-top: 5px;
+    display: flex;
+    width: 332.475px;
+    padding: 18px 46px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #562ee7;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .groupU {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  label {
+    color: var(--primary-black, #171719);
+
+    /* primary - medium */
+    font-family: "SF Pro Display";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.9px;
+    text-transform: lowercase;
+  }
+
+  input,
+  textarea {
+    width: 730px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1.5px solid var(--Dark-border, #ccc);
+    color: var(--primary-black, #171719);
+    font-family: "SF Pro Display";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding: 16px;
+    letter-spacing: 0.8px;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: var(--primary-black, #171719);
+  }
+
+  textarea {
+    resize: vertical;
+    height: 169px;
+  }
+}

@@ -1,0 +1,50 @@
+.HomeU {
+  background-image: url("/imgs/bg-home.png");
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 30px;
+  padding-left: 78px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .textU {
+    margin-bottom: 40px;
+    width: 806px;
+    color: #0e0729;
+    font-family: "Intro";
+    font-size: 61px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 106%;
+    letter-spacing: 7.32px;
+
+    span {
+      display: block;
+      font-size: 90px;
+      margin: 30px 0;
+    }
+  }
+
+  .btnU {
+    position: relative;
+    display: flex;
+    width: 435px;
+    padding: 18px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 7.26px;
+    border-radius: 100px;
+    background: #562ee7;
+  }
+}

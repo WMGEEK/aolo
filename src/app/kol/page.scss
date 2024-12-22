@@ -1,0 +1,114 @@
+.KolU {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 13px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .titleU {
+    text-align: center;
+    font-family: "Intro";
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 117%; /* 81.9px */
+    letter-spacing: 8.4px;
+    background: linear-gradient(180deg, #0e0729 51.24%, #fff 94.44%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .btnU {
+    display: flex;
+    width: 332.475px;
+    padding: 18px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #562ee7;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .listU {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 92px;
+    margin-bottom: 72px;
+  }
+
+  .itemU {
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 357px;
+    height: 218px;
+    flex-shrink: 0;
+    border-radius: 26px;
+    background: #fff;
+    box-shadow: 0px 39px 40px 0px rgba(14, 7, 41, 0.07);
+
+    .boxT {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+
+      .avatarB {
+        width: 100px;
+        height: 100px;
+        padding: 7.5px;
+        background: url("/imgs/icon-kol-avatar1.png") center no-repeat;
+        background-size: contain;
+        border-radius: 50%;
+      }
+
+      .avatarU {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        flex-shrink: 0;
+        border-radius: 50%;
+      }
+
+      .nameU {
+        color: #6a58f1;
+        font-family: Poppins;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+      }
+    }
+
+    .boxB {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      .iconU {
+        width: 37px;
+        height: 37px;
+        flex-shrink: 0;
+      }
+
+      .priceU {
+        color: #827f8d;
+        font-family: Poppins-Regular;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 34px; /* 170% */
+      }
+    }
+  }
+}
