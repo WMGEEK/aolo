@@ -1,0 +1,2 @@
+# aolo
+Solana AI Hackathon
